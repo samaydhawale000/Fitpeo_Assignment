@@ -1,0 +1,86 @@
+.app{
+  background: #f5f6f8;
+}
+
+#SideNavigation{
+  width: 240px;
+  height: 100vh;
+  padding: 20px;
+  color: #fff;
+  position: fixed;
+  background: linear-gradient(90deg, #05054d, #040440);
+}
+
+.SideNavButton:hover{
+  background-color: #2d2d69;
+  transition: 0.4s;
+}
+
+.profileImage{
+  border-radius: 80%;
+  width: 32px;
+  height: 32px;;
+  border: 2px solid gray;
+}
+
+.cardsDiv{
+  display: flex;
+  justify-content: space-between;
+}
+
+.profileClass{
+  position: relative;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  padding: 6px 10px ;
+  background-color: #2d2d69;
+  border-radius: 6px;
+}
+.profileClass:hover{
+  background-color: #36367d;
+  cursor: pointer;
+}
+
+.profileClass > div{
+  margin-right: 20px;
+}
+
+.DashboardInfoCards{
+  width: 23%;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+}
+
+.cardImage{
+  padding: 20px;
+  border-radius: 80px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+.graph{
+padding: 20px;
+background-color: #fff;
+box-sizing: border-box;
+border-radius: 10px;
+width: 60%;
+}
+
+.ProductSellTable{
+  padding: 20px;
+  background-color: #fff;
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 10px;
+}
