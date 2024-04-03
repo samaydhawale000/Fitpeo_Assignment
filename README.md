@@ -1,3 +1,3 @@
 # Fitpeo_Assignment
 
-<img src="./frontend/src/images/homepage.png" alt="screenshot" />
+<img src="./fitpeo_coding_assignment/src/images/homepage.png" alt="screenshot" />
